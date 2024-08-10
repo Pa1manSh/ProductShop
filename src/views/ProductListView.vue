@@ -15,7 +15,6 @@
       />
     </div>
 
-    <!-- Попап для отображения деталей товара -->
     <CardComponentDetails
       :product="selectedProduct"
       :visible="!!selectedProduct"

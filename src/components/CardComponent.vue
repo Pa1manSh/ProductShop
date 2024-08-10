@@ -22,7 +22,7 @@ const props = defineProps({
   id: Number,
 });
 
-const emit = defineEmits(["view-details"]); // Определение события
+const emit = defineEmits(["view-details"]);
 
 const favoritesStore = useFavoritesStore();
 
@@ -41,7 +41,6 @@ const toggleFavorite = () => {
   }
 };
 
-// Добавляем метод для вызова события
 const viewDetails = () => {
   emit("view-details");
 };
